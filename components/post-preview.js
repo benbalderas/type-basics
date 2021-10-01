@@ -32,7 +32,7 @@ export default function PostPreview({
          </h3>
 
          <h4 className='mb-4'>
-            <Link href={`/categories/${category._meta.uid}`}>
+            <Link href='/'>
                <a className='hover:underline'>{category.name[0].text}</a>
             </Link>
          </h4>
