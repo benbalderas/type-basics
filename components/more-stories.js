@@ -8,7 +8,7 @@ export default function MoreStories({ posts }) {
           <PostPreview
             key={node._meta.uid}
             title={node.title}
-            category={node.tag}
+            category={node.category}
             coverImage={node.coverimage}
             date={node.date}
             author={node.author}
