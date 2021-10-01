@@ -7,7 +7,7 @@ import Head from 'next/head'
 
 export default function Index({ preview, allPosts }) {
   const morePosts = allPosts
-  console.log(allPosts)
+
   return (
     <>
       <Layout preview={preview}>
