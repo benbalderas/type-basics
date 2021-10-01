@@ -6,7 +6,7 @@ import CoverImage from './cover-image'
 
 export default function PostPreview({
   title,
-  tag,
+  category,
   coverImage,
   date,
   excerpt,
@@ -31,7 +31,7 @@ export default function PostPreview({
         </Link>
       </h3>
 
-      <h4 className="mb-4">{tag}</h4>
+      <h4 className="mb-4">{category}</h4>
 
       <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
 
